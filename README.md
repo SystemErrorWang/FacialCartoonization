@@ -1,10 +1,7 @@
-<br><br><br>
-
 # Facial Cartoonizaiton based on White-box Cartoonizaiton
 
-
-Pytorch implementation of a simple facial image cartoonizaiton netowrk
-This work is an improvement based on CVPR2020 White-box cartoonizaiton paper 
+- Pytorch implementation of a simple facial image cartoonizaiton netowrk
+- This work is an improvement based on CVPR2020 White-box cartoonizaiton paper 
 [project page](https://systemerrorwang.github.io/White-box-Cartoonization/) |   [paper](https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf) |   [twitter](https://twitter.com/IlIIlIIIllIllII/status/1243108510423896065) |   [zhihu](https://zhuanlan.zhihu.com/p/117422157) |   [bilibili](https://www.bilibili.com/video/av56708333)
 
 
