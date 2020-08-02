@@ -1,8 +1,6 @@
-<img src='paper/shinjuku.jpg' align="left" width=1000>
-
 <br><br><br>
 
-# Facial Cartoonizaiton based on "Learning to Cartoonize Using White-box Cartoon Representations"
+# Facial Cartoonizaiton based on White-box Cartoonizaiton
 
 
 Pytorch implementation of a simple facial image cartoonizaiton netowrk
