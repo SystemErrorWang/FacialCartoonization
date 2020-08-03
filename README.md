@@ -1,4 +1,4 @@
-# White-box Cartoonizaiton improved on facial images
+# White-box facial image cartoonizaiton
 
 - Pytorch implementation of a simple facial image cartoonizaiton netowrk
 - This work is an improvement based on CVPR2020 White-box cartoonizaiton paper 
