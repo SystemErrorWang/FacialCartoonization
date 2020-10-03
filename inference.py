@@ -4,6 +4,7 @@ import torch
 import numpy as np
 import torch.nn as nn
 
+from PIL import Image
 from tqdm import tqdm
 from torch.nn import functional as F
 
@@ -109,6 +110,14 @@ if __name__ == '__main__':
     name_list = [f for f in name_list if '.jpg' in f]
     if not os.path.exists('results'):
         os.mkdir('results')
+    
+    # Changing the resolution of the images to 256x256
+    for name in name_list:
+        load_path = os.path.join('images', name)
+        image = Image.open(load_path)
+        new_image = image.resize((256, 256))
+        new_image.save(load_path)
+
     for name in tqdm(name_list):
         load_path = os.path.join('images', name)
         save_path = os.path.join('results', name)
